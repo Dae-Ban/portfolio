@@ -1,8 +1,9 @@
+# .github/workflows/pages.yml
 name: Deploy to GitHub Pages (CRA)
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 permissions:
   contents: read
@@ -23,6 +24,8 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm run build
+        env:
+          CI: ""
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build
