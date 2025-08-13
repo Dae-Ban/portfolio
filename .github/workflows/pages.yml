@@ -1,11 +1,14 @@
 name: Deploy to GitHub Pages (CRA)
+
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -22,7 +25,7 @@ jobs:
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: build  # CRA 빌드 산출물
+          path: build
 
   deploy:
     needs: build
