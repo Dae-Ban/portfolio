@@ -267,7 +267,7 @@ export default function MyPortfolio() {
                                     <div className="certificate-item">
                                         <div className="certificate-name">정보처리기사</div>
                                         <div className="certificate-org">한국산업인력공단</div>
-                                        <div className="certificate-date">2024.09(예정)</div>
+                                        <div className="certificate-date">2025.09(예정)</div>
                                     </div>
                                 </div>
                             </div>
