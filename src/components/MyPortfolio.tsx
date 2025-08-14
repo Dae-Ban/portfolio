@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import '../styles/style.css';
 import profilePicture from '../img/profile.webp';
+import gamesemo from '../img/gamesemo.webp';
+import near from '../img/near.webp';
+import jwt_logo from '../img/jwt_logo.webp';
 
 export default function MyPortfolio() {
     useEffect(() => {
@@ -376,7 +379,7 @@ export default function MyPortfolio() {
 
                     <div className="projects-grid">
                         <div className="project-card fade-in">
-                            <div className="project-image"><span className="material-symbols-outlined">chat</span></div>
+                            <div className="project-image"><img src={gamesemo} alt="겜세모 프로젝트"></img></div>
                             <div className="project-content">
                                 <h3 className="project-title">게임 할인 정보 제공 사이트</h3>
                                 <p className="project-description">
@@ -396,7 +399,7 @@ export default function MyPortfolio() {
                                     <span className="tech-tag">웹 크롤링</span>
                                 </div>
                                 <div className="project-docs">
-                                    <a href="#" target="_blank" rel="noreferrer">프로젝트 소개(추가 예정)</a>
+                                    <a href="https://1drv.ms/p/c/463d079abdadf5ac/ETlHSv1_9o5Fq7ytSeaONXkBCD6iz9WvixBVL9YMJoQtWQ?e=ceZMyo" target="_blank" rel="noreferrer">프로젝트 소개</a>
                                 </div>
                                 <div className="project-links">
                                     <a href="http://3.34.122.138" className="project-link project-link-primary" target="_blank" rel="noreferrer">
@@ -412,7 +415,7 @@ export default function MyPortfolio() {
                         </div>
 
                         <div className="project-card fade-in">
-                            <div className="project-image"><span className="material-symbols-outlined">shopping_cart</span></div>
+                            <div className="project-image"><img src={near} alt="near 프로젝트"></img></div>
                             <div className="project-content">
                                 <h3 className="project-title">원격 정신 상담 사이트</h3>
                                 <p className="project-description">
@@ -433,7 +436,7 @@ export default function MyPortfolio() {
                                     <span className="tech-tag">Janus Client</span>
                                 </div>
                                 <div className="project-docs">
-                                    <a href="#" target="_blank" rel="noreferrer">프로젝트 소개(추가 예정)</a>
+                                    <a href="https://1drv.ms/p/c/463d079abdadf5ac/EVLN0qjlxbBIthe-AITGLeoBmVGLv8IQEJkiNw6ClPQThg?e=zclltv" target="_blank" rel="noreferrer">프로젝트 소개</a>
                                 </div>
                                 <div className="project-links">
                                     <a href="https://52.79.239.2.nip.io" className="project-link project-link-primary" target="_blank" rel="noreferrer">
@@ -449,7 +452,7 @@ export default function MyPortfolio() {
                         </div>
 
                         <div className="project-card fade-in">
-                            <div className="project-image"><span className="material-symbols-outlined">analytics</span></div>
+                            <div className="project-image"><img src={jwt_logo} alt="jwt 로고"></img></div>
                             <div className="project-content">
                                 <h3 className="project-title">인증 로직 보완</h3>
                                 <p className="project-description">
@@ -470,7 +473,7 @@ export default function MyPortfolio() {
                                     <span className="tech-tag">Docker Compose</span>
                                 </div>
                                 <div className="project-docs">
-                                    <a href="#" target="_blank" rel="noreferrer">프로젝트 소개(추가 예정)</a>
+                                    {/* <a href="#" target="_blank" rel="noreferrer">프로젝트 소개(추가 예정)</a> */}
                                 </div>
                                 <div className="project-links">
                                     <a href="https://github.com/Dae-Ban/jwt-board-springboot" className="project-link project-link-secondary" target="_blank" rel="noreferrer">
