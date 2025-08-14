@@ -281,7 +281,7 @@
             height: 100%;
             position: relative;
             border-radius: 5%;
-            background: #111;
+            background: var(--bg-card);
             /* 카드 바탕 */
             box-shadow:
                 0 12px 28px rgba(0, 0, 0, .35),
@@ -311,11 +311,12 @@
         }
 
         .card {
-            width: 450px;
-            height: 600px;
+            width: 430px;
+            height: 580px;
             background-image: url(../img/profile.webp);
             background-size: cover;
             border-radius: 5%;
+            margin: 10px;
         }
 
         .card-shadow {
@@ -623,6 +624,11 @@
             font-size: 3rem;
             position: relative;
             overflow: hidden;
+        }
+
+        .project-image img {
+            height: 200px;
+            object-fit: cover;
         }
 
         .project-image::before {
