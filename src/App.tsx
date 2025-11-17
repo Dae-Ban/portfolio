@@ -1,4 +1,4 @@
-import MyPortfolio from "./components/MyPortfolio";
+import MyPortfolio from "./components/MyPortfolio_251117-1";
 
 function App() {
   return (
