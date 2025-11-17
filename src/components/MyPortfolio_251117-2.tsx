@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import '../styles/style.css';
-import profilePicture from '../img/profile.webp';
+import '../styles/style_251117-2.css';
+import profilePicture from '../img/profile_2.webp';
 import gamesemo from '../img/gamesemo.webp';
 import near from '../img/near.webp';
 import jwt_logo from '../img/jwt_logo.webp';
