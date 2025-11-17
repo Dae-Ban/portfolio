@@ -194,7 +194,9 @@ export default function MyPortfolio() {
                     <div className="section-header">
                         <div className="section-badge">About Me</div>
                         <h2 className="section-title">저를 소개합니다</h2>
-                        <p className="section-description">끊임없는 학습과 혁신을 통해 더 나은 개발자로 성장하고 있습니다.</p>
+                        <p>끊임없는 학습과 실무 경험을 바탕으로 문제 해결 능력과 협업 역량을 강화했습니다.</p>
+                        <p>새로운 기술과 도전을 두려워하지 않으며, 팀과 함께 성장하는 개발자가 되는 것을 목표로 합니다.</p>
+                        <p>지속적으로 최신 기술을 학습하고, 이해하기 쉽게 정리해 팀과 공유하는 것을 중요하게 생각합니다.</p>
                     </div>
 
                     <div className="about-grid">
@@ -204,16 +206,12 @@ export default function MyPortfolio() {
                             </div>
                         </div>
                         <div className="about-content fade-in visible">
-                            <h3>윤성찬 &nbsp; | &nbsp; 학습이 빠른 개발자</h3>
-                            <p>
-                                Java를 주력 언어로 사용하며, Spring과 Spring Boot를 기반으로 한 웹 애플리케이션 개발에 집중하고 있습니다.
-                                최신 기술과 아키텍처를 적용하여 안정적이고 확장 가능한 시스템을 구축하기 위해 끊임없이 노력합니다.
-                                또한 지속적인 학습과 성장에 힘쓰고 있으며, 다양한 프로젝트와 협업 경험을 통해 문제 해결 능력과 커뮤니케이션 역량을 강화하고 있습니다.
-                            </p>
-                            <p>
-                                새기술 공유를 중요하게 생각하여 이해가 쉬운 방향으로 정리를 하고 공유를 진행합니다.<br />
-                                책과 강의를 통해 지속적으로 학습하고 있습니다.
-                            </p>
+                            <h3>윤성찬 | Java/Spring 백엔드 & 실시간 통신 개발자</h3>
+                            <h4>실무 중심의 백엔드 개발과 클라우드 환경 배포 경험을 갖춘, 학습 속도가 빠른 개발자입니다.</h4><br/>
+                            <p>Spring Boot, WebSocket, AWS 기반 안정적·확장 가능한 서비스를 설계하고 구현합니다.</p>
+                            <p>Java를 주력 언어로 사용하며, Spring과 Spring Boot 기반 웹 애플리케이션 개발에 집중하고 있습니다.</p>
+                            <p>실무 경험을 통해 안정적이고 확장 가능한 서버와 API를 구현하며, 데이터베이스 설계·운영, 실시간 통신 구현까지 폭넓게 다룹니다.</p>
+                            <p>협업과 소통을 중시하며, CI/CD와 클라우드 배포 경험으로 안정적인 시스템 운영이 가능합니다.</p>
                         </div>
                     </div>
 
@@ -333,7 +331,7 @@ export default function MyPortfolio() {
                             </div>
                         </div>
 
-                        {/* Real-Time Communication (신규) */}
+                        {/* Real-Time Communication */}
                         <div className="skill-card fade-in">
                             <div className="skill-icon"><span className="material-symbols-outlined">videocam</span></div>
                             <h3 className="skill-title">Real-Time Communication</h3>
@@ -384,12 +382,11 @@ export default function MyPortfolio() {
                                 <h3 className="project-title">게임 할인 정보 제공 사이트</h3>
                                 <p className="project-description">
                                     프로젝트명: 겜세모<br />
-                                    6인 프로젝트<br />
-                                    프로젝트 기간: 2025.06(4주)<br />
-                                    플랫폼별 게임 세일정보를 쉽게 찾을수 있는 게임세일모아 웹사이트 프로젝트 입니다. <br />
-                                    여러 게임 판매 플랫폼을 크롤링 하여 매일 최신화된 게임 할인 정보를 보여줍니다. <br />
-                                    게임 위시리스트 기능과, 커뮤니티 기능까지 지원합니다.
-                                </p>
+                                    인원: 6인<br />
+                                    프로젝트 기간: 2025.06(4주)<br /><br/>
+                                    개요: 다양한 게임 판매 플랫폼에서 데이터를 크롤링하여 최신 할인 정보를 제공 <br /><br/>
+                                    주요 기능: 게임 할인 정보 제공, 게임 위시리스트, 커뮤니티 기능 구현
+                                </p><br/>
                                 <div className="project-tech">
                                     <span className="tech-tag">Spring Boot</span>
                                     <span className="tech-tag">Java 17</span>
@@ -420,11 +417,11 @@ export default function MyPortfolio() {
                                 <h3 className="project-title">원격 정신 상담 사이트</h3>
                                 <p className="project-description">
                                     프로젝트명: n:ear<br />
-                                    6인 프로젝트<br />
-                                    프로젝트 기간: 2025.07(4주)<br />
-                                    WebRTC와 WebSocket을 활용하여 상담자와 내담자 모두에게 쉽고 편리한 상담 환경을 제공하는 웹 플랫폼입니다.<br />
-                                    정신 건강 상태를 자가 진단 및 관리할 수 있는 다양한 도구와 컨텐츠를 제공합니다.<br />
-                                </p>
+                                    인원: 6인<br />
+                                    프로젝트 기간: 2025.07(4주)<br /><br/>
+                                    개요: WebRTC·WebSocket 기반 실시간 상담 환경 제공<br/><br/>
+                                    주요 기능: 상담자·내담자 간 실시간 상담, 정신 건강 자가 진단 및 관리 도구 제공
+                                </p><br/><br/>
                                 <div className="project-tech">
                                     <span className="tech-tag">Spring Boot</span>
                                     <span className="tech-tag">Java 17</span>
@@ -457,10 +454,13 @@ export default function MyPortfolio() {
                                 <h3 className="project-title">인증 로직 보완</h3>
                                 <p className="project-description">
                                     개인 학습<br />
-                                    JWT 엑세스 토큰과 Http Only 쿠키를 이용한 인증 및 인가 서비스 로직 구현<br />
-                                    JWT 리프레시 토큰과 Redis를 이용한 토큰 리프레시 로직 구현<br />
-                                    획일화된 API 응답과 전역 예외처리
-                                </p>
+                                    학습 기간: 2025.08(1주)<br/><br/>
+                                    개요: JWT 기반 인증/인가 로직 설계 및 보완 학습<br/><br/>
+                                    주요 기능:<br/>
+                                    JWT 엑세스 토큰 + HttpOnly 쿠키 기반 인증/인가 구현<br/>
+                                    Redis와 리프레시 토큰을 통한 안전한 토큰 갱신 처리<br/>
+                                    통합 API 응답 및 전역 예외 처리 적용
+                                </p><br/>
                                 <div className="project-tech">
                                     <span className="tech-tag">Spring Boot</span>
                                     <span className="tech-tag">Java 17</span>
